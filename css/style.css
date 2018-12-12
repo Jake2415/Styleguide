@@ -1,0 +1,76 @@
+/* Nav styling*/
+.sidebar-container{
+    background: black;
+    height: 125px;
+    width: 100%;
+    position: fixed;
+    display:flex;
+    flex-wrap: wrap;
+    
+    
+}
+
+:target{
+    padding-top: 125px;
+}
+
+nav{
+    top: 0%;
+    left: 0%;
+    right: 0%;
+}
+
+nav img{
+    height: 75px;
+    width: 75px; 
+    padding: 25px;
+  
+}
+
+nav p{
+    display: block;
+    color: white;
+    font-weight: bold;
+    font-size: 26px;
+    font-family: 'Lato', sans-serif;
+    
+    
+}
+
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 51px;
+    padding-left: 25px;
+    
+}
+
+.center-links{
+    padding-left: 108px;
+}
+
+
+
+
+/*Section Container Styling*/
+.section-container{
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 0px;
+    padding: 50px 50px;
+}
+
+
+
+/*Content Container Styling*/
+.content_container{
+    margin: 0;
+    max-width: 850px;
+}
+
+
+
